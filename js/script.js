@@ -16,3 +16,11 @@ window.onscroll = () => {
 	menu.classList.remove('bx-x');
 	navbar.classList.remove('open');
 };
+
+let form = document.querySelecter("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  return false;
+});
+
